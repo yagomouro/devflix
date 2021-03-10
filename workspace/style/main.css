@@ -1,0 +1,127 @@
+/* Declaração de variáveis */
+
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+    --cinza: #AAA;
+    --branco: #FFF;
+}
+
+/* Configuração global */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*limita o tamanho do container*/
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+/* Elementos base */
+
+body {
+    background: var(--preto);
+    color: var(--branco);
+}
+
+.container {
+    margin-left: 30px;
+}
+
+/* Header */
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header .logo {
+    color: var(--vermelho);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu a {
+    color: var(--cinza);
+    margin-right: 15px;
+}
+
+.menu a:hover {
+    color: var(--branco);
+}
+
+
+/* Filme principal */
+
+.filme-principal {
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)100%), url('../img/capa-flash.jpg');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.filme-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.titulo {
+    margin-top: 15%;
+    font-size: 50px;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: var(--branco);
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+    transition: .3s ease all;
+
+}
+
+.botao i {
+    margin-right: 8px;
+}
+
+
+/* Carousel */
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carousel-filmes{
+    margin-top: 5px;
+}
