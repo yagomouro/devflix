@@ -1,0 +1,24 @@
+Projeto----------------------------------------------------------------------------------------------------------------------------------
+
+box-size: content box (padrão): Indica que o tamanho do elemento é definido apenas pelo conteúdo,
+desconsiderando padding e bordas
+box-sizing: border-box: limita o tamanho do container ao width, considerando borda e padding
+:root - pseudo classe que se referencia ao html, possui a especifidade mais alta e é útil para declarar variáveis
+--nome-variavel: valor; - declaração de variável
+var(--nome-variavel): chamada da variável
+container/wrapper: divs para organização de elementos
+role ="": definir o papel do elemento
+linear-gradient(cor1, cor2): aplica um gradiente 
+
+
+Wrapper- Envelopar
+
+O papel dos desenvolvedores não é só escrever código, e sim solucionar problemas
+
+&#60; - <
+&#62; - >
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------
