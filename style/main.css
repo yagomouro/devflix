@@ -49,6 +49,7 @@ header {
     -ms-transform: translateY(-100%);
     -o-transform: translateY(-100%);
     transform: translateY(-100%);
+    transition: all 0.3s ease-in-out;
 }
 
 .scroll {
