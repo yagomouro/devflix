@@ -40,6 +40,15 @@ header {
     position: fixed;
     width: 100%;
     z-index: 99;
+    top: -;
+}
+
+.hidden {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
 }
 
 .scroll {
@@ -63,7 +72,7 @@ header .logo {
     margin-right: 30px;
 }
 
-.fa-chevron-down::before{
+.fa-chevron-down::before {
     display: none;
 }
 
@@ -118,7 +127,7 @@ header .logo {
 
     padding: 15px 30px;
     margin-right: 15px;
-    margin-bottom:15px;
+    margin-bottom: 15px;
     font-size: 12px;
     cursor: pointer;
 }
@@ -172,7 +181,7 @@ header .logo {
     color: var(--branco);
 }
 
-.Copyright{
+.Copyright {
     margin-right: 20px;
 }
 

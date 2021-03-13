@@ -20,11 +20,20 @@ $('.owl-carousel').owlCarousel({
 // Header scroll
 
 $(window).scroll(function () {
-    if ($(window).scrollTop() > 50){
+    if ($(window).scrollTop() > 50) {
         $(".header").addClass("scroll");
-    }
-    else{
+    } else {
         $(".header").removeClass("scroll");
     }
 });
 
+// Header hide
+var prev = 0;
+var $window = $(window);
+var nav = $('.header');
+
+$window.on('scroll', function () {
+    var scrollTop = $window.scrollTop();
+    nav.toggleClass('hidden', scrollTop > prev);
+    prev = scrollTop;
+});
