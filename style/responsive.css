@@ -1,17 +1,46 @@
-@media screen and (max-width: 700px){
-    header .container{
+@media screen and (max-width: 700px) {
+    header .container {
         display: flex;
         flex-direction: column;
     }
 
-    .botao{
-        margin-top: 5px;
-        width: 300px;
+    .botao {
+        margin: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .menu li {
+        margin-bottom: 10px;
     }
 }
 
-@media screen and (min-width: 1000px){
-    .descricao{
+@media screen and (max-width: 500px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .filme-principal .container {
+        width: 80%;
+        align-self: center;
+    }
+
+    .titulo {
+        margin-top: 40%;
+        text-align: center;
+    }
+
+    .descricao {
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (min-width: 1000px) {
+    .descricao {
         width: 50%;
     }
 }

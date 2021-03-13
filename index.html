@@ -8,112 +8,395 @@
     <link rel="stylesheet" href="./style/main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-   
+    
     <!-- Responsividade -->
-
     <link rel="stylesheet" href="style/responsive.css">
-   <!-- Arquivos OWL css -->
-   <link rel="stylesheet" href="style/owl/owl.carousel.css">
-   <link rel="stylesheet" href="style/owl/owl.theme.default.css">
 
-   
+    <!-- Arquivos OWL css -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.css">
 
-    <title>NETFLIX</title>
+
+
+    <title>DEVFLIX</title>
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <h2 class="logo">N E T F L I X </h2>
+            <a href="#">
+                <h2 class="logo">&#60; D E V F L I X &#62;</h2>
+            </a>
             <nav>
                 <ul class="menu">
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Séries</a></li>
-                    <li><a href="#">Filmes</a></li>
-                    <li><a href="#">Documentários</a></li>
+                    <li><a href="#frontend">Frontend</a></li>
+                    <li><a href="#backend">Backend</a></li>
+                    <li><a href="#mobile">Mobile</a></li>
+                    <li><a href="#bootcamps">Bootcamps</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
+        <!-- Filme principal -->
         <div class="filme-principal">
             <div class="container">
-                <h3 class="titulo">The Flash</h3>
-                <p class="descricao">Barry enfrenta diversos assassinos que invadem a premiação onde ele acompanha Iris,
-                    mas os efeitos colaterais de seus novos superpoderes representam uma ameaça.</p>
+                <h3 class="titulo">HTML Web Developer</h3>
+                <p class="descricao">Aprenda a programar páginas de internet e desenvolver websites utilizando HTML, CSS
+                    e JavaScript para iniciar sua trajetória profissional em desenvolvimento web front-end.</p>
                 <div class="botoes">
-                    <button role="button" class="botao">
-                        <i class="fas fa-play"></i>
-                        ASSITIR AGORA
-                    </button>
-                    <button role="button" class="botao">
-                        <i class="fas fa-info-circle"></i>
-                        MAIS INFORMAÇÕES
-                    </button>
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I" target="_blank">
+                        <button role="button" class="botao">
+                            <i class="fas fa-play"></i>
+                            ASSITIR AGORA
+
+                        </button>
+                    </a>
+                    <a href="https://web.digitalinnovation.one/track/html-web-developer" target="_blank">
+                        <button role="button" class="botao">
+                            <i class="fas fa-info-circle"></i>
+                            MAIS INFORMAÇÕES
+                        </button>
+                    </a>
                 </div>
             </div>
+        </div>
 
+        <!-- Carroseis -->
+        <div id="populares" class="container carousel-filmes">
+            <h2 class="titulo-carousel">Populares na Devflix</h2>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/frontend/curso-js-bas.png" alt="miniatura 1">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/frontend/curso-reactjs-bas.png" alt="miniatura 1">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/mobile/curso-react-nat-bas.jpg" alt="miniatura 1">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/backend/curso-php-bas.png" alt="miniatura 1">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/backend/curso-sql-bas.png" alt="miniatura 1">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/backend/curso-php-val.png" alt="miniatura 1">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/frontend/curso-htmlcss.jpg" alt="miniatura 1">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/frontend/curso-vuejs.jpg" alt="miniatura 1">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/frontend/curso-jquery.png" alt="miniatura 1">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/backend/curso-pyt-med.png" alt="miniatura 1">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/frontend/curso-reactjs-avan.jpg" alt="miniatura 1">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/mobile/curso-flut-med.jpg" alt="miniatura 1">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="frontend" class="container carousel-filmes">
+            <h2 class="titulo-carousel">Desenvolvimento Frontend</h2>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/frontend/curso-htmlcss.jpg" alt="miniatura 1">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/frontend/curso-bootstrap.png" alt="miniatura 2">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/frontend/curso-jquery.png" alt="miniatura 3">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/frontend/curso-js-bas.png" alt="miniatura 4">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/frontend/curso-js-med.png" alt="miniatura 5">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/frontend/curso-js-ava.png" alt="miniatura 6">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/frontend/curso-reactjs-bas.png" alt="miniatura 7">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/frontend/curso-reactjs-med.png" alt="miniatura 8">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/frontend/curso-reactjs-avan.jpg" alt="miniatura 9">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/frontend/curso-vuejs.jpg" alt="miniatura 10">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/frontend/curso-gitgithub.jpg" alt="miniatura 11">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="backend" class="container carousel-filmes">
+            <h2 class="titulo-carousel">Desenvolvimento Backend</h2>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/backend/curso-php-bas.png" alt="miniatura 1">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/backend/curso-php-med.png" alt="miniatura 2">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/backend/curso-php-ava.png" alt="miniatura 3">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/backend/curso-pyt-bas.png" alt="miniatura 4">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/backend/curso-pyt-med.png" alt="miniatura 5">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/backend/curso-pyt-ava.png" alt="miniatura 6">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/backend/curso-sql-bas.png" alt="miniatura 7">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/backend/curso-sql-med.png" alt="miniatura 8">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/backend/curso-sql-ava.png" alt="miniatura 9">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/backend/curso-php-val.png" alt="miniatura 10">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/backend/curso-php-form.png" alt="miniatura 11">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/backend/curso-pyt-seg.jpg" alt="miniatura 12">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/backend/curso-sql-con.png" alt="miniatura 13">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div id="mobile" class="container carousel-filmes">
+            <h2 class="titulo-carousel">Desenvolvimento Mobile</h2>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/mobile/curso-react-nat-bas.jpg" alt="miniatura 1">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/mobile/curso-react-nat-med.jpg" alt="miniatura 2">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/mobile/curso-react-nat-avan.jpg" alt="miniatura 3">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/mobile/curso-swi-bas.png" alt="miniatura 4">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/mobile/curso-swi-ava.jpg" alt="miniatura 5">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/mobile/curso-flut-bas.jpg" alt="miniatura 6">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/mobile/curso-flut-med.jpg" alt="miniatura 7">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/mobile/curso-dart-bas.jpg" alt="miniatura 8">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/mobile/curso-dart-ava.jpg" alt="miniatura 9">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="bootcamps" class="container  carousel-filmes">
+            <h2 class="titulo-carousel">Bootcamps para maratonar</h2>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/bootcamps/htmlweb.png" alt="miniatura 1">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/bootcamps/carrefourback.png" alt="miniatura 2">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/bootcamps/everiskotlin.png" alt="miniatura 3">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/bootcamps/impulsofullstack.png" alt="miniatura 4">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/bootcamps/sptechfront.png" alt="miniatura 5">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/bootcamps/sptechback.png" alt="miniatura 6">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/bootcamps/interjava.png" alt="miniatura 7">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/bootcamps/jsgame.png" alt="miniatura 8">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/bootcamps/mrvnet.png" alt="miniatura 9">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/bootcamps/localizanet.png" alt="miniatura 10">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/bootcamps/fullstackcarrefour.png" alt="miniatura 11">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I">
+                        <img class="box-filme" src="img/bootcamps/avanadeangular.png" alt="miniatura 12">
+                    </a>
+                </div>
+            </div>
         </div>
     </main>
 
-    <div class="carousel-filmes">
-        <div class="owl-carousel owl-theme">
-            <div class="item">
-                <img class="box-filme" src="img/mini1.jpg" alt="miniatura 1">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="img/mini2.jpg" alt="miniatura 2">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="img/mini3.jpg" alt="miniatura 3">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="img/mini4.jpg" alt="miniatura 4">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="img/mini5.jpg" alt="miniatura 5">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="img/mini6.jpg" alt="miniatura 6">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="img/mini7.jpg" alt="miniatura 7">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="img/mini8.jpg" alt="miniatura 8">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="img/mini9.jpg" alt="miniatura 9">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="img/mini10.jpg" alt="miniatura 10">
-            </div>
+
+    <footer class="links">
+        <p class="Copyright">Desenvolvido por Yago Mouro</p>
+        <a href="https://www.linkedin.com/in/yago-mouro/">
+            <img class="redes-sociais" src="img/linkedin.png" alt="linkedin">
+        </a>
+        <a href="https://github.com/yagomouro">
+            <img class="redes-sociais" src="img/github.png" alt="github">
+        </a>
+    </footer>
 
 
-
-
-
-
-
-
-
-
-
-        </div>
-    </div>
-
-
-
-
-
-
-
+    <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/7b8404dd25.js" crossorigin="anonymous"></script>
 
     <!-- Arquivos OWL JS -->
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
+
+    <!-- Js principal -->
     <script src="js/main.js"></script>
 
 </body>
