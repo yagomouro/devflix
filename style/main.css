@@ -175,10 +175,11 @@ header .logo {
 .links {
     display: flex;
     justify-content: center;
+    margin-top: 40px;
     align-items: center;
     padding: 20px;
-    background-color: #393939;
-    color: var(--branco);
+    background-color: white;
+    color: var(--cinza);
 }
 
 .Copyright {
