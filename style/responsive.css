@@ -1,4 +1,4 @@
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     header .container {
         display: flex;
         flex-direction: column;
@@ -13,9 +13,7 @@
     .menu li {
         margin-bottom: 10px;
     }
-}
 
-@media screen and (max-width: 500px) {
     header .container {
         display: flex;
         flex-direction: column;
@@ -35,9 +33,9 @@
     .descricao {
         text-align: center;
     }
-
-
 }
+
+@media screen and (max-width: 500px) {}
 
 @media screen and (min-width: 1000px) {
     .descricao {
