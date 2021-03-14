@@ -1,5 +1,5 @@
 # Projeto Devflix
->Projeto que recria a interface do Netflix, utilizando as tecnologias HTML5, CSS3 e JavaScript.  
+>Projeto da plataforma [Digital Innovation One](https://digitalinnovation.one/sign-up?ref=NPRAJ6J67I), que recria a interface do Netflix, utilizando as tecnologias HTML5, CSS3 e JavaScript.
 
 >**Desafio inicial:** Reconstruir a página inicial do Netflix, utilizando conceitos de estruturação de layout, técnicas de CSS3 com containers e variáveis, posicionamento com Flexbox e utilização de plugins Jquery. 
 >
